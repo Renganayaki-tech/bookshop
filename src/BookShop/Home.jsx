@@ -158,7 +158,7 @@ export default function Home() {
                   <button
                     className="nav-link dropdown-toggle text-light"
                     id="pagesDropdown"
-                    role="button"
+                    // role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >

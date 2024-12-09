@@ -155,7 +155,7 @@ export default function Home() {
 
                 {/* Pages Dropdown */}
                 <li className="nav-item dropdown mx-5" activeClassName="active">
-                  <button
+                  <a
                     className="nav-link dropdown-toggle text-light"
                     id="pagesDropdown"
                     // role="button"
@@ -163,7 +163,7 @@ export default function Home() {
                     aria-expanded="false"
                   >
                     Pages
-                  </button>
+                  </a>
                   <ul className="dropdown-menu" aria-labelledby="pagesDropdown">
                     <li>
                       <NavLink className="dropdown-item"activeClassName="active" to="/about">

@@ -1,0 +1,78 @@
+.navbar{
+
+  background-color:#e12503;
+}
+.nav-link:hover {
+  /* text-decoration: underline;  */
+  border-bottom: 2px solid white;
+}
+
+/* Dropdown items hover effect */
+.dropdown-item:hover {
+  /* text-decoration: underline; */
+  border-bottom: 2px solid rgb(238, 39, 39) ;
+
+  background-color: rgba(238, 39, 39, 0.1); 
+  color: rgb(238, 39, 39); 
+}
+.main{
+  overflow-x: hidden;
+}
+.content-title{
+  font-family: serif;
+}
+.slider-img{
+  position: relative;
+}
+.text-section{
+  position: absolute;
+  top: 500px;
+  left: 500px;
+  z-index: 2;
+}
+img.img-fluid{
+
+  max-height: 500px; 
+  object-fit: cover;
+}
+/* .price{
+  height: 100px;
+  width: 50px;
+} */
+.new-arriv{
+  font-family: serif;
+  /* margin: 20px 0; */
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  font-size: 36px;
+  text-decoration: none; /* Remove default underline */
+  position: relative; /* Allow positioning of the pseudo-element */
+
+
+
+}
+
+.new-arriv::after {
+  content: ""; /* Add an underline effect */
+  position: absolute;
+  left: 625px;
+  bottom: -30px; /* Adjust distance from the text */
+  width: 7%;
+  height: 3px; /* Thickness of the underline */
+  background-color: red; /* Underline color */
+  
+}
+.click {
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+
+ 
+}
+
+.click:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
+
+}
+
